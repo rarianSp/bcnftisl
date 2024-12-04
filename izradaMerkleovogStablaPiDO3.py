@@ -1,7 +1,7 @@
 import hashlib
 import os
-# rarianSp2024MITlicenca
-# izračunavanje sažetaka
+#rarianSp2024MITlicenca
+#izračunavanje sažetaka
 def sazetak(data):
     #izračunava SHA-256 sažetak podataka P
     return hashlib.sha256(data.encode('utf-8')).hexdigest()
