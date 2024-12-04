@@ -99,7 +99,7 @@ if __name__ == "__main__":
             print("\n")
         else:
             for i in range(0, len(razina), 2):
-                # kombiniranje parova u stablu
+                # kombiniranje parova sažetaka u stablu
                 if i + 1 < len(razina):
                     kombinirani_sazetak = sazetak(razina[i] + razina[i+1])
                     print(f"  Čvor {i+1} i {i+2}: {razina[i]} + {razina[i+1]} -> {kombinirani_sazetak}")
