@@ -1,0 +1,582 @@
+@prefix : <file:///Users/arianrajh/Library/CloudStorage/Dropbox/FFZG/Projekti/RIC%20HR%20prijevod/FFinterinstitucijski2025/Opisi%20za%20krovni%20NFT2025%20projekt%20cija%20je%20ovo%20aktivnost/knownunknowns.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://opensea.io/collection/known-unknowns-nft-ffzg> a rico:RecordSet ;
+    rico:generalDescription "NFT collection" ;
+    rico:identifier "0x495f947276749ce646f68ac8c248420045cb7b5e" ;
+    rico:title "Known Unknowns - portraits from the history of Zagreb" ;
+    rdfs:comment "Description of the collection created by A. Rajh, 2025-06-10" ;
+    rico:includesOrIncluded <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858215537926209546> , 
+    <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858216637437837322> , 
+    <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858217736949465098> , 
+    <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858212239391326218> , 
+    <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858214438414581770> , 
+    <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858222134995976202> , 
+    <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858223234507603978> , 
+    <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858213338902953994> , 
+    <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858219935972720650> , 
+    <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858224334019231754> , 
+    <https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858221035484348426>  ;
+    rico:hasOrHadAllMembersWithCreationDate [ a rico:Date ;
+                                rico:expressedDate "2022-09" ] ;
+    rico:AuthenticityNote "unique digital items" ;
+    rico:language "English (en)" , "Latin(latn)" ;
+    rico:scopeAndContent "This collection is a result of the project Application of blockchain technology in heritage environment developed at the Department of Information and Communication Sciences, Faculty of Humanities and Social Sciences, University of Zagreb, Croatia. In collaboration with the State Archives in Zagreb we have selected 11 portraits of persons from the history of Zagreb. The NFTs represent real-life physical objects that are part of the Archives' Ivan Ulčnik fund." ;
+    rico:AccumulationRelation <https://daz.hr> ;
+    rico:recordResourceHasSourceOfInformation [ a rico:RecordSet ; rico:identifier <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ; rico:title "HR-DAZG-857 Zbirka Ulčnik Ivan" ];
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "11" ;
+                     rico:unitOfMeasurement "NFT" ] .
+
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858215537926209546> a rico:Record ;
+    rico:title "Slavan Ban" ;
+    rico:scopeAndContent "Slavan Ban (1847—1884) was a Croatian actor. He performed in minor roles in dramas, operettas and operas, interpreting first the roles of young lovers, then more complex character roles. Little information about his career has been preserved. He participated in the first performance of Shakespeare's The Merchant of Venice (1867), in the first performance of Zajc's opera Mislav (1870) as a dramatic actor-singer, he also interpreted the role of Stojan in Kukuljević's play Poturica at the opening of the Varaždin theater (1873). He was a great talent, but undeveloped and unrestrained (S. Batušić)." ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-41" ;
+    rico:isCopyOf <HR-DAZG-857-41> ;
+    rico:hasContentWhichRepresents [ a rico:Person ; rico:identifier <https://hbl.lzmk.hr/clanak/ban-slavan> ; rico:name "Slavan Ban" ] ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 58115754737178457571273725405044055913366631526444276150572858215537926209546" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .
+
+:HR-DAZG-857-41 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ;
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-41 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-41" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
+
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858216637437837322> a rico:Record ;
+    rico:title "Marija Bučar" ;
+    rico:scopeAndContent "Marija Bučar (1855-1926) was a wife of architect Herman Erlich, and later of Franjo Bučar, literary historian and president of the Croatian Sports Association." ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-130" ;
+    rico:isCopyOf <HR-DAZG-857-130> ;
+    rico:hasContentWhichRepresents [ a rico:Person ; rico:identifier <https://www.geni.com/people/Marija-Bucar/6000000020446682258> ; rico:name "Marija Bučar" ] ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 58115754737178457571273725405044055913366631526444276150572858216637437837322" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .
+:HR-DAZG-857-130 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ;
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-130 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-130" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
+
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858217736949465098> a rico:Record ;
+    rico:title "Slavoljub Bulvan" ;
+    rico:scopeAndContent "Slavoljub Bulvan (1842-1915) was a Zagreb goldsmith and city representative. He is known for creating the Zagreb mayoral chain." ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-132" ;
+    rico:isCopyOf <HR-DAZG-857-132> ;
+    rico:hasContentWhichRepresents [ a rico:Person ; rico:identifier <https://hbl.lzmk.hr/clanak/bulvan-slavoljub> ; rico:name "Slavoljub Bulvan" ] ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 58115754737178457571273725405044055913366631526444276150572858216637437835098" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .    
+
+:HR-DAZG-857-132 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ;
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-132 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-132" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
+
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858212239391326218> a rico:Record ;
+    rico:title "Milan Amruš" ;
+    rico:scopeAndContent "Milan Amruš (1848–1919) was a doctor and politician. He completed his medical studies in Vienna in 1872, worked as a military doctor in Zagreb, Vienna and Sarajevo, where he founded a modern health organization in Bosnia and Herzegovina and was appointed health advisor and reporter for health and veterinary medicine of the National Government. As mayor(1890–92, 1904–10) he significantly contributed to the development of Zagreb (introduction of trams, construction of a new train station, power station, improvement of health and hygiene conditions, etc.)." ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-11" ;
+    rico:isCopyOf <HR-DAZG-857-11> ;
+    rico:hasContentWhichRepresents [ a rico:Person ; rico:identifier <https://hbl.lzmk.hr/clanak/amrus-milan> ; rico:name "Milan Amruš" ] ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 58115754737178457571273725405044055913366631526444276150572858216637437836218" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .
+
+:HR-DAZG-857-11 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ;
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-11 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-11" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
+
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858214438414581770> a rico:Record ;
+    rico:title "Ivana Bajza-Slavik" ;
+    rico:scopeAndContent "Ivana Bajza-Slavik (1834-1882) was a Croatian actress. From 1856, she performed in the old theater on Markov trg in Zagreb, in Croatian and German plays. Since the foundation of the permanent ensemble in 1860, she was its core member. She primarily played the roles of lovers and tragic heroines. She was the first to interpret Teuta (D. Demeter, Teuta) and Maria Stuart (F. Schiller, Maria Stuart)" ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-32" ;
+    rico:isCopyOf <HR-DAZG-857-32> ;
+    rico:hasContentWhichRepresents [ a rico:Person ; rico:identifier <https://www.enciklopedija.hr/clanak/bajza-slavik-ivana> ; rico:name "Ivana Bajza-Slavik" ] ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 558115754737178457571273725405044055913366631526444276150572858216637437831770" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]];
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .
+
+:HR-DAZG-857-32 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ; 
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-32 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-32" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
+
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858222134995976202> a rico:Record ;
+    rico:title "Josip Kneizle" ;
+    rico:scopeAndContent "Josip Kneizle (1836-1893) was the director of the Croatian National Theater two times. He was later described by Ivo Andrić as a director who filled the theater coffers, but at the same time left a void in the artistic aspect." ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-739" ;
+    rico:isCopyOf <HR-DAZG-857-739> ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 58115754737178457571273725405044055913366631526444276150572858216637437836202" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]];
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .
+
+
+:HR-DAZG-857-739 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ;      
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-739 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-739" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
+
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858223234507603978> a rico:Record ;
+    rico:title "Matilda Lesić" ;
+    rico:scopeAndContent "Matilda Lesić (1845-1909) was an opera singer born in Lviv, but spent most of her life in Zagreb. At first, she performed in operettas, but after the arrival of Ivan pl. Zajc, she was entrusted with leading roles in all of his operas. She performed in almost all Croatian first opera performances." ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-812" ;
+    rico:isCopyOf <HR-DAZG-857-812> ;
+    rico:hasContentWhichRepresents [ a rico:Person ; rico:identifier <https://hbl.lzmk.hr/clanak/lesic-matilda> ; rico:name "Matilda Lesić" ] ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 58115754737178457571273725405044055913366631526444276150572858216637437833978" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]];
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .
+
+:HR-DAZG-857-812 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ;           
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-812 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-812" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
+    
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858213338902953994> a rico:Record ;
+    rico:title "Stanko Andrijević" ;
+    rico:scopeAndContent "" ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-13" ;
+    rico:isCopyOf <HR-DAZG-857-13> ;
+    rico:hasContentWhichRepresents [ a rico:Person ; rico:identifier <https://hr.wikipedia.org/wiki/Stanko_Andrijević> ; rico:name "Stanko Andrijević" ] ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 58115754737178457571273725405044055913366631526444276150572858216637437833994" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .
+
+:HR-DAZG-857-13 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ;
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-41 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-13" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
+
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858219935972720650> a rico:Record ;
+    rico:title "Antonija Cvijić Kasović" ;
+    rico:scopeAndContent "Antonija Cvijić Kasović (1865-1936) was a Croatian writer and great-niece of the famous composer Vatroslav Lisinski. On the occasion of the 100th anniversary of his death in 1919, she published his biography. She also published a collection of short stories Slavic stories in two volumes." ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-159" ;
+    rico:isCopyOf <HR-DAZG-857-159> ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 58115754737178457571273725405044055913366631526444276150572858216637437830650" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .
+
+:HR-DAZG-857-159 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ;
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-41 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-159" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
+
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858224334019231754> a rico:Record ;
+    rico:title "Franjo Marković" ;
+    rico:scopeAndContent "Franjo Marković (1845-1914) was a Croatian writer and philosopher. He is a representative of the so-called formalist aesthetics and he significantly contributed to the systematic study of Croatian philosophical heritage. Marković was also one of the most important Croatian authors in the second half of the 19th century and he played a prominent role in the reform and modernization of Croatian verse." ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-938" ;
+    rico:isCopyOf <HR-DAZG-857-938> ;
+    rico:hasContentWhichRepresents <https://enciklopedija.hr/clanak/markovic-franjo> ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 58115754737178457571273725405044055913366631526444276150572858216637437831754" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> , <https://opensea.io/0xeddf6616ab0f775db2da1e6da3408bd463bb90f0> , [rico:hasBeginningDate [a rico:Date ; rico:normalizedDateValue "2024-05-10T11:31:59Z"^^xsd:dateTime]] ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> , <https://opensea.io/0xe74d9d5d89a73620414557105c102e4538935ec5> , [rico:hasBeginningDate [a rico:Date ; rico:normalizedDateValue "2024-05-10T11:29:11Z"^^xsd:dateTime]] ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> , <https://opensea.io/hstancic> , [rico:hasBeginningDate [a rico:Date ; rico:normalizedDateValue "2024-05-10T11:28:23Z"^^xsd:dateTime]] ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> , <https://opensea.io/0x01af5fe48510ed1850da985d2d0460f97fd0f8c9> , [rico:hasBeginningDate [a rico:Date ; rico:normalizedDateValue "2024-05-10T11:27:23Z"^^xsd:dateTime]] ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .
+
+:HR-DAZG-857-938 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ;   
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-938 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-938" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
+
+<https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/58115754737178457571273725405044055913366631526444276150572858221035484348426> a rico:Record ;
+    rico:title "Mirko Divković" ;
+    rico:scopeAndContent "Mirko Divković (1843-1924) was a Croatian philologist and lexicographer. He was the author of textbooks for the Croatian language, later merged into the Croatian grammar. He wrote Forms of Old Slavic language for school (1883) as well as a comprehensive Latin-Croatian dictionary for schools (1900). He also translated from Russian, mostly Turgenev, Tolstoy and folk tales." ;
+    rico:isOrWasIncludedIn <https://opensea.io/collection/known-unknowns-nft-ffzg> ;
+    rico:hasCreator <https://opensea.io/Yavion> ;
+    rico:history "The NFT was minted using photograph HR-DAZG-875-181" ;
+    rico:isCopyOf <HR-DAZG-857-181> ;
+    rico:hasContentWhichRepresents [ a rico:Person ; rico:identifier <https://hbl.lzmk.hr/clanak/4861> ; rico:name "Mirko Divković" ] ;
+    rico:note "There is a typo in the description on OpenSea where his name is written as Marko Divković. The correct name is Mirko Divković, and the typo has been corrected here." ;
+    rico:authenticityNote "contract address: 0x495f947276749Ce646f68AC8c248420045cb7b5e" , "token ID: 58115754737178457571273725405044055913366631526444276150572858216637437838426" , "token standard: ERC-1155" , "blockchain: Ethereum" ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+                     rico:quantity "10" ;
+                     rico:unitOfMeasurement "total supply" ] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_1"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_2"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_3"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_4"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_5"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_6"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_7"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_8"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_9"]] ;
+    rico:hasInstantiation [ a rico:Instantiation ;
+                          rico:hasOrHadOwner <https://opensea.io/Yavion> ;
+                          rico:hasOrHadIdentifier [a rico:Identifier ; rico:textualValue "_10"]] .
+
+:HR-DAZG-857-181 a rico:Record ;
+    rdfs:isDefinedBy <https://www.daz.hr/vodic/site/article/hr-dazg-857-zbirka-ulcnik-ivan/1/4> ;               
+    skos:scopeNote "This record is introduced as a placeholder for the missing linked data instance that corresponds to the archival record HR-DAZG-857-181 from the State Archives in Zagreb." ;
+    rico:identifier "HR-DAZG-857-181" ;
+    rico:RecordResourceExtent "1 photograph" ;
+    rico:productionTechnique "photograph" .
